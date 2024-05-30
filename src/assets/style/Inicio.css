@@ -1,0 +1,59 @@
+.portadaInicio{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+   /* background-color: aqua; */
+}
+
+.contenedor-titulo{
+    font-size: 50px;
+}
+
+.contenedor-titulo h1{
+    font-size: 80px;
+    margin: 0;
+}
+
+.contenedor-titulo div p{
+    font-size: 20px;
+}
+
+.contenedor-description {
+    height: 200px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenedor-description div{
+    width: 60%;
+    font-size: 25px;
+}
+
+.tecnologias{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tecnologias  div{
+ text-align: center;
+}
+
+
+.card-stack{
+    height: 150px;
+    width:100%;
+    background-color: red;
+    margin: 10px 0px;
+}
+
+.card-proyectos{
+    height: 300px;
+    width:100%;
+    background-color: red;
+    margin: 10px 0px;
+}
