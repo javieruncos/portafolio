@@ -1,0 +1,19 @@
+.card-stack {
+    height: 150px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.075); /* Fondo semitransparente */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Borde semitransparente */
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+    -webkit-backdrop-filter: blur(10px); /* Compatibilidad con navegadores WebKit */
+    border-radius: 15px; /* Bordes redondeados */
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-stack img {
+    height: 100px;
+    width: 100%;
+}
+

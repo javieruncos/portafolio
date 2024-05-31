@@ -1,59 +1,52 @@
-.portadaInicio{
+.portadaInicio {
     height: 400px;
     width: 100%;
     text-align: center;
-   /* background-color: aqua; */
+    padding-top: 30px;
 }
 
-.contenedor-titulo{
+.contenedor-titulo {
     font-size: 50px;
 }
 
-.contenedor-titulo h1{
+.contenedor-titulo h1 {
     font-size: 80px;
     margin: 0;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 32%, rgba(77, 29, 253, 1) 67%, rgba(17, 16, 16, 1) 100%);
+    -webkit-background-clip: text;
+    /* Usar el gradiente como fondo del texto */
+    -webkit-text-fill-color: transparent;
+    /* Hacer el texto transparente para mostrar el fondo */
+    background-clip: text;
+    /* Compatibilidad con otros navegadores */
 }
 
-.contenedor-titulo div p{
+.contenedor-titulo div p {
     font-size: 20px;
 }
 
 .contenedor-description {
     height: 200px;
-  width: 100%;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-.contenedor-description div{
+.contenedor-description div {
     width: 60%;
     font-size: 25px;
 }
 
-.tecnologias{
+.tecnologias {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-.tecnologias  div{
- text-align: center;
-}
-
-
-.card-stack{
-    height: 150px;
-    width:100%;
-    background-color: red;
-    margin: 10px 0px;
-}
-
-.card-proyectos{
-    height: 300px;
-    width:100%;
-    background-color: red;
-    margin: 10px 0px;
+.tecnologias div {
+    text-align: center;
 }

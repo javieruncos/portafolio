@@ -1,0 +1,28 @@
+.card-proyectos {
+    height: 370px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.075); /* Fondo semitransparente */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Borde semitransparente */
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+    -webkit-backdrop-filter: blur(10px); /* Compatibilidad con navegadores WebKit */
+    border-radius: 15px; /* Bordes redondeados */
+    margin: 10px 0px;
+    overflow: hidden;
+}
+
+.contenedor-img{
+    height: 200px;
+    width: 100%;
+    background-color: red;
+}
+
+.contenedor-img img{
+    height: 100%;
+    width: 100%;
+}
+
+.description{
+    height: 100%;
+    width: 100%;
+    padding-top: 10px;
+}

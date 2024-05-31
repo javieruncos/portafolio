@@ -1,0 +1,27 @@
+.Menu{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.514);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barraMenu{
+    height: 60px;
+    width: 50%;
+    background-color: #0f0f0f ;
+    border-radius: 20px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 70px;
+    border: 1px solid rgba(255, 255, 255, 0.13);
+    backdrop-filter: blur(15px);
+}
+
+.barraMenu a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}

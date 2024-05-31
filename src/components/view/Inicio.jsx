@@ -1,9 +1,12 @@
 import React from 'react';
 import '../../assets/style/Inicio.css';
+import Tecnologias from '../Ui/Tecnologias';
+import Proyecto from '../Ui/Proyecto';
+
 
 const Inicio = () => {
     return (
-        <div>
+        <div className='Inicio'>
             <div className='portadaInicio container'>
                 <div className='contenedor-titulo'>
                     <span>Javier Uncos</span>
@@ -26,85 +29,17 @@ const Inicio = () => {
                 </div>
             </div>
             <div className='tecnologias container my-5'>
-                <div className='mb-4'>
+                <div className='mt-3'>
                     <h2 className='display-5'>tecnologias</h2>
                 </div>
-                <div className='container '>
-                    <div className='row'>
-                        <div className='col-12 col-md-3 col-lg-3'>
-                            <div className='card-stack'>
-
-                            </div>
-
-                        </div>
-                        <div className='col-12 col-md-3 col-lg-3'>
-                            <div className='card-stack'>
-
-                            </div>
-
-                        </div>
-                        <div className='col-12 col-md-3 col-lg-3'>
-                            <div className='card-stack'>
-
-                            </div>
-
-                        </div>
-                        <div className='col-12 col-md-3 col-lg-3'>
-                            <div className='card-stack'>
-
-                            </div>
-
-                        </div>
-                        <div className='col-12 col-md-3 col-lg-3'>
-                            <div className='card-stack'>
-
-                            </div>
-
-                        </div>
-                        <div className='col-12 col-md-3 col-lg-3'>
-                            <div className='card-stack'>
-
-                            </div>
-
-                        </div>
-                        <div className='col-12 col-md-3 col-lg-3'>
-                            <div className='card-stack'>
-
-                            </div>
-
-                        </div>
-                        <div className='col-12 col-md-3 col-lg-3'>
-                            <div className='card-stack'>
-
-                            </div>
-
-                        </div>
-                    </div>
+                <div className='mt-5'>
+                    <Tecnologias></Tecnologias>
                 </div>
             </div>
             <div>
                 <h3 className='display-5 text-center'>Proyectos</h3>
-                <div className='container'>
-                    <div className='row'>
-                        <div className='col-12 col-md-4 col-lg-4'>
-                            <div className='card-proyectos'>
-
-                            </div>
-
-                        </div>
-                        <div className='col-12 col-md-4 col-lg-4'>
-                            <div className='card-proyectos'>
-
-                            </div>
-                        </div>
-                        <div className='col-12 col-md-4 col-lg-4'>
-                            <div className='card-proyectos'>
-
-                            </div>
-                        </div>
-
-                    </div>
-
+                <div className='mt-5'>
+                    <Proyecto></Proyecto>
                 </div>
             </div>
         </div>
