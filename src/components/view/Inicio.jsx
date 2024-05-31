@@ -2,7 +2,10 @@ import React from 'react';
 import '../../assets/style/Inicio.css';
 import Tecnologias from '../Ui/Tecnologias';
 import Proyecto from '../Ui/Proyecto';
-
+import linkedin from '../../assets/img/linkedin.svg';
+import github from '../../assets/img/github.svg';
+import instagram from '../../assets/img/instagram.svg';
+import wsp from '../../assets/img/whatsapp.svg';
 
 const Inicio = () => {
     return (
@@ -20,25 +23,33 @@ const Inicio = () => {
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         </p>
                     </div>
-                    <div className='d-flex justify-content-center gap-5'>
-                        <a href="">links</a>
-                        <a href="">links</a>
-                        <a href="">links</a>
-                        <a href="">links</a>
+                    <div className='d-flex justify-content-center gap-5 mt-3'>
+                        <a href="">
+                            <img src={linkedin} alt="" className='redes' />
+                        </a>
+                        <a href="">
+                            <img src={github} alt="" className='redes' />
+                        </a>
+                        <a href="">
+                            <img src={instagram} alt="" className='redes' />
+                        </a>
+                        <a href="">
+                            <img src={wsp} alt="" className='redes' />
+                        </a>
                     </div>
                 </div>
             </div>
-            <div className='tecnologias container my-5'>
-                <div className='mt-3'>
+            <div className='tecnologias container'>
+                <div className=''>
                     <h2 className='display-5'>tecnologias</h2>
                 </div>
-                <div className='mt-5'>
+                <div className='mt-3'>
                     <Tecnologias></Tecnologias>
                 </div>
             </div>
             <div>
                 <h3 className='display-5 text-center'>Proyectos</h3>
-                <div className='mt-5'>
+                <div className='mt-4'>
                     <Proyecto></Proyecto>
                 </div>
             </div>

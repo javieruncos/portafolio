@@ -6,36 +6,36 @@ const Proyecto = () => {
     return (
         <div className='container'>
             <div className='row'>
-                <div className='col-12 col-md-4 col-lg-4'>
+                <div className='col-12 col-md-6 col-lg-4'>
                     <div className='card-proyectos'>
                         <div className='contenedor-img'>
                             <img src={ecommerce} alt="" />
                         </div>
-                        <div className='description container'>
+                        <div className='description container pt-3'>
                            <h3>Ecommerce</h3>
                            <span className='text-secondary'>tecnologia usadas</span>
                            <p>react , bootstrap , react router dom , node js , express</p>
                         </div>
                     </div>
                 </div>
-                <div className='col-12 col-md-4 col-lg-4'>
+                <div className='col-12 col-md-6 col-lg-4'>
                     <div className='card-proyectos'>
                         <div className='contenedor-img'>
                             <img src={futbol} alt="" />
                         </div>
-                        <div className='description container'>
+                        <div className='description container pt-3'>
                            <h3>Futbol flash</h3>
                            <span className='text-secondary'>tecnologia usadas</span>
                            <p>react , bootstrap , react router dom</p>
                         </div>
                     </div>
                 </div>
-                <div className='col-12 col-md-4 col-lg-4'>
+                <div className='col-12 col-md-6 col-lg-4'>
                     <div className='card-proyectos'>
                         <div className='contenedor-img'>
                             <img src={futbol} alt="" />
                         </div>
-                        <div className='description container'>
+                        <div className='description container pt-3'>
                            <h3>Futbol flash</h3>
                            <span className='text-secondary'>tecnologia usadas</span>
                            <p>react , bootstrap , react router dom</p>
