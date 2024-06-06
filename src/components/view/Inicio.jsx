@@ -39,20 +39,24 @@ const Inicio = () => {
                     </div>
                 </div>
             </div>
-            <div className='tecnologias container'>
-                <div className=''>
-                    <h2 className='display-5'>tecnologias</h2>
+            <section className='container'>
+                <div className='tecnologias container'>
+                    <div className='container'>
+                        <h3>tecnologias</h3>
+                    </div>
+                    <div>
+                        <Tecnologias></Tecnologias>
+                    </div>
                 </div>
-                <div className='mt-3'>
-                    <Tecnologias></Tecnologias>
+                <div className='container'>
+                    <div className='container'>
+                        <h3 className=''>Proyectos</h3>
+                    </div>
+                    <div className='mt-2'>
+                        <Proyecto></Proyecto>
+                    </div>
                 </div>
-            </div>
-            <div>
-                <h3 className='display-5 text-center'>Proyectos</h3>
-                <div className='mt-4'>
-                    <Proyecto></Proyecto>
-                </div>
-            </div>
+            </section>
         </div>
     );
 };

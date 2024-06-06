@@ -1,57 +1,93 @@
 .card-proyectos {
-    height: 370px;
+    height: 300px;
     width: 100%;
-    background: rgba(255, 255, 255, 0.075); /* Fondo semitransparente */
-    border: 1px solid rgba(255, 255, 255, 0.2); /* Borde semitransparente */
-    backdrop-filter: blur(10px); /* Efecto de desenfoque */
-    -webkit-backdrop-filter: blur(10px); /* Compatibilidad con navegadores WebKit */
-    border-radius: 15px; /* Bordes redondeados */
+    background: rgba(255, 255, 255, 0.082);
+    /* Fondo semitransparente */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    /* Borde semitransparente */
+    backdrop-filter: blur(10px);
+    /* Efecto de desenfoque */
+    -webkit-backdrop-filter: blur(10px);
+    /* Compatibilidad con navegadores WebKit */
+    border-radius: 15px;
+    /* Bordes redondeados */
     margin: 10px 0px;
+    overflow: hidden;
+    display: flex;
+    cursor: pointer;
+}
+
+.contenedor-img {
+    height: 100%;
+    width: 50%;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    /* Gradiente para la máscara */
+    mask-size: cover;
+    /* Ajusta la máscara al tamaño del contenedor */
+    -webkit-mask-image: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.089));
+    /* Compatibilidad con WebKit */
+    -webkit-mask-size: cover;
     overflow: hidden;
 }
 
-.contenedor-img{
-    height: 200px;
-    width: 100%;
-    background-color: red;
-}
-
-.contenedor-img img{
+.contenedor-img img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
+    transition: 0.5s ease;
 }
 
-.description{
+.card-proyectos:hover img {
+    height: 310px;
+}
+
+.description {
     height: 100%;
-    width: 100%;
+    width: 50%;
     padding-top: 10px;
+    padding-left: 20px;
+}
+
+
+@media screen and (max-width: 599px) {
+   .card-proyectos{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+   }
+
+    .contenedor-img{
+        width: 100%;
+    }
+
+    .description{
+        width: 100%;
+        padding-top: 10px;
+        padding-left: 15px;
+        padding-bottom: 20px;
+    }
 }
 
 @media screen and (min-width: 600px) and (max-width: 991px) {
     .card-proyectos {
-        height: 370px;
+        height: 300px;
         width: 100%;
-        background: rgba(255, 255, 255, 0.075); /* Fondo semitransparente */
-        border: 1px solid rgba(255, 255, 255, 0.2); /* Borde semitransparente */
-        backdrop-filter: blur(10px); /* Efecto de desenfoque */
-        -webkit-backdrop-filter: blur(10px); /* Compatibilidad con navegadores WebKit */
-        border-radius: 15px; /* Bordes redondeados */
-        margin: 10px 0px;
-        overflow: hidden;
+        display: flex;
+       
     }
-    
-    .contenedor-img{
-        height: 200px;
+
+    .contenedor-img {
+        height: 300px;
         width: 100%;
         background-color: red;
     }
-    
-    .contenedor-img img{
+
+    .contenedor-img img {
         height: 100%;
         width: 100%;
     }
-    
-    .description{
+
+    .description {
         height: 100%;
         width: 100%;
         padding-top: 10px;

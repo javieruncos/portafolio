@@ -5,12 +5,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .barraMenu{
     height: 60px;
     width: 50%;
-    background-color: #0f0f0f ;
     border-radius: 20px;
     display: flex;
     justify-content:center;
@@ -18,6 +18,11 @@
     gap: 70px;
     border: 1px solid rgba(255, 255, 255, 0.13);
     backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.082); /* Fondo semitransparente */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Borde semitransparente */
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+    -webkit-backdrop-filter: blur(10px); /* Compatibilidad con navegadores WebKit */
+    border-radius: 15px; /* Bordes redondeados */
 }
 
 .barraMenu a{
@@ -25,3 +30,4 @@
     text-decoration: none;
     font-size: 20px;
 }
+
