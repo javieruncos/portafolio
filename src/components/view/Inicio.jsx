@@ -6,6 +6,8 @@ import linkedin from '../../assets/img/linkedin.svg';
 import github from '../../assets/img/github.svg';
 import instagram from '../../assets/img/instagram.svg';
 import wsp from '../../assets/img/whatsapp.svg';
+import Contacto from '../Ui/Contacto';
+
 
 const Inicio = () => {
     return (
@@ -55,6 +57,9 @@ const Inicio = () => {
                     <div className='mt-2'>
                         <Proyecto></Proyecto>
                     </div>
+                </div>
+                <div className='container mt-5'>
+                   <Contacto></Contacto>
                 </div>
             </section>
         </div>
