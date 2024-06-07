@@ -18,14 +18,14 @@ const Inicio = () => {
                     <h1>Frontend Developer</h1>
                 </div>
                 <div className='contenedor-description mt-3'>
-                    <div>
+                    <div className='description'>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse saepe qui,
                             ullam praesentium mollitia consequatur?
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         </p>
                     </div>
-                    <div className='d-flex justify-content-center gap-5 mt-3'>
+                    <div className=' mt-3 container-redes'>
                         <a href="">
                             <img src={linkedin} alt="" className='redes' />
                         </a>
