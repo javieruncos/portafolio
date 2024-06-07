@@ -6,9 +6,9 @@ const Menu = () => {
         <div className='Menu'>
           <div className='barraMenu'>
              <a href="">Inicio</a>
-             <a href="">Inicio</a>
-             <a href="">Inicio</a>
-             <a href="">Inicio</a>
+             <a href="">proyectos</a>
+             <a href="">Contacto</a>
+             <a href="">Tecnologias</a>
           </div>
         </div>
     );

@@ -5,21 +5,21 @@ const Contacto = () => {
         <div className='contacto container'>
             <h3>Contacto</h3>
             <div className='container-form mt-4'>
-                <div class="form-container">
-                    <form class="form">
-                        <div class="form-group">
-                            <label for="email">Nombre y Apellido</label>
+                <div className="form-container">
+                    <form className="form">
+                        <div className="form-group">
+                            <label>Nombre y Apellido</label>
                             <input required="" name="email" id="email" type="text"/>
                         </div>
-                        <div class="form-group">
-                            <label for="email">Correo Electronico</label>
+                        <div className="form-group">
+                            <label>Correo Electronico</label>
                             <input required="" name="email" id="email" type="text"/>
                         </div>
-                        <div class="form-group">
-                            <label for="textarea">En que puedo ayudarte?</label>
-                            <textarea required="" cols="50" rows="10" id="textarea" name="textarea">          </textarea>
+                        <div className="form-group">
+                            <label >En que puedo ayudarte?</label>
+                            <textarea required="" cols="50" rows="10" id="textarea" name="textarea"/>
                         </div>
-                        <button type="submit" class="form-submit-btn">Submit</button>
+                        <button type="submit" className="form-submit-btn">Submit</button>
                     </form>
                 </div>
             </div>
