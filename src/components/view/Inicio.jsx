@@ -4,7 +4,7 @@ import Tecnologias from '../Ui/Tecnologias';
 import Proyecto from '../Ui/Proyecto';
 import linkedin from '../../assets/img/linkedin.svg';
 import github from '../../assets/img/github.svg';
-import instagram from '../../assets/img/instagram.svg';
+import gmail from '../../assets/img/gmail.svg';
 import wsp from '../../assets/img/whatsapp.svg';
 import Contacto from '../Ui/Contacto';
 
@@ -33,11 +33,9 @@ const Inicio = () => {
                             <img src={github} alt="" className='redes' />
                         </a>
                         <a href="">
-                            <img src={instagram} alt="" className='redes' />
+                            <img src={gmail} alt="" className='redes' />
                         </a>
-                        <a href="">
-                            <img src={wsp} alt="" className='redes' />
-                        </a>
+                      
                     </div>
                 </div>
             </div>

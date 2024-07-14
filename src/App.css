@@ -24,3 +24,15 @@
 .Inicio{
     background-color: rgba(0, 0, 0, 0.514);
 }
+
+
+.color-Text{
+  background: rgb(131, 58, 180);
+  background: linear-gradient(90deg, rgba(131, 58, 180, 1) 32%, rgba(77, 29, 253, 1) 67%, rgba(17, 16, 16, 1) 100%);
+  -webkit-background-clip: text;
+  /* Usar el gradiente como fondo del texto */
+  -webkit-text-fill-color: transparent;
+  /* Hacer el texto transparente para mostrar el fondo */
+  background-clip: text;
+  /* Compatibilidad con otros navegadores */
+}
