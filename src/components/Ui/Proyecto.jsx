@@ -3,6 +3,7 @@ import '../../assets/style/Proyecto.css';
 import ecommerce from "../../assets/img/proyectos/eccomerce.png";
 import futbol from "../../assets/img/proyectos/futbol2.png";
 import movie from "../../assets/img/proyectos/movie.png";
+import magic from "../../assets/img/proyectos/magic.png";
 import { LogosTecnologias } from '../../helpers/tecnologias';
 const Proyecto = () => {
 
@@ -77,7 +78,6 @@ const Proyecto = () => {
                                 <img src={LogosTecnologias.react} alt="" />
                                 <img src={LogosTecnologias.javascript} alt="" />
                                 <img src={LogosTecnologias.bootstrap} alt="" />
-                                <img src={LogosTecnologias.reactRouter} alt="" />
                             </div>
                         </div>
                     </div>
@@ -85,10 +85,10 @@ const Proyecto = () => {
                 <div className='col-12 col-md-12 col-lg-6'>
                     <div className='card-proyectos'>
                         <div className='contenedor-img'>
-                            <img src={movie} alt="" />
+                            <img src={magic} alt="" />
                         </div>
                         <div className='description-proyecto container pt-3 '>
-                            <h3 className='fs-1'>Movie App</h3>
+                            <h3 className='fs-1'>Films maker</h3>
                             <div>
                                 <h4 className='color-Text'>Descripcion</h4>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero aliquid labore esse dicta quae inventore placeat pariatur. Accusamus sapiente
