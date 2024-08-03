@@ -1,9 +1,8 @@
 .portadaInicio {
-    height: 400px;
+    height: 500px;
     width: 100%;
     text-align: center;
-    padding-top: 30px;
-    margin-bottom: 120px;
+    padding-top: 130px;
 }
 
 .contenedor-titulo {
@@ -11,7 +10,7 @@
 }
 
 .contenedor-titulo h1 {
-    font-size: 120px;
+    font-size: 100px;
     margin: 0;
     background: rgb(131, 58, 180);
     background: linear-gradient(90deg, rgba(131, 58, 180, 1) 32%, rgba(77, 29, 253, 1) 67%, rgba(17, 16, 16, 1) 100%);
@@ -48,7 +47,7 @@
 
 .container-redes{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     gap: 50px;
 }
 
@@ -70,11 +69,14 @@
 
 @media screen and (max-width: 599px) {
     .portadaInicio {
-        height:350px;
+        height:600px;
         width: 100%;
         text-align: center;
-        padding-top:0px;
         margin-bottom: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
     .contenedor-description{

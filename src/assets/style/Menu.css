@@ -1,28 +1,32 @@
 .Menu{
-    height: 100px;
+    height: 70px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.514);
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .barraMenu{
-    height: 60px;
-    width: 50%;
-    border-radius: 20px;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    gap: 70px;
-    border: 1px solid rgba(255, 255, 255, 0.13);
+    position: fixed;
+    width: 100%;
+    top: 0;
     backdrop-filter: blur(15px);
     background: rgba(255, 255, 255, 0.082); /* Fondo semitransparente */
     border: 1px solid rgba(255, 255, 255, 0.2); /* Borde semitransparente */
     backdrop-filter: blur(10px); /* Efecto de desenfoque */
     -webkit-backdrop-filter: blur(10px); /* Compatibilidad con navegadores WebKit */
-    border-radius: 15px; /* Bordes redondeados */
+    animation: header-scroll linear both;
+    animation-timeline: scroll(root block);
+    animation-range: 0 200px;
+    transition: 5s ease;
+    z-index: 100;
+}
+
+@keyframes header-scroll {
+    to{
+        background-color: #191919;
+    }
 }
 
 .barraMenu a{
@@ -31,20 +35,14 @@
     font-size: 20px;
 }
 
+.barraMenu a:hover{
+    color: rgba(77, 29, 253, 1);
+}
+
 @media screen and (max-width: 599px) {
     .barraMenu {
-        height: 43px;
-        width: 92%;
-        border-radius: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 25px;
-        background: rgba(255, 255, 255, 0.082);
-        border: 1px solid rgba(255, 255, 255, 0.2);
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
-        border-radius: 15px;
+        background-color: #191919;
+        color: white;
     }
 
     .barraMenu a {

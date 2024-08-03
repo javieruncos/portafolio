@@ -11,6 +11,9 @@ const Proyecto = () => {
 
     return (
         <div className='container'>
+            <div className='container' >
+                <h3 className=''>Proyectos</h3>
+            </div>
             <div className='row'>
                 <div className='col-12 col-md-12 col-lg-6'>
                     <div className='card-proyectos'>
