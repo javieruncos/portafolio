@@ -18,13 +18,7 @@ const Inicio = () => {
                     <h1>Frontend Developer</h1>
                 </div>
                 <div className='contenedor-description mt-3 container'>
-                    <div className='description'>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse saepe qui,
-                            ullam praesentium mollitia consequatur?
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        </p>
-                    </div>
+                    
                     <div className=' mt-3 container-redes'>
                         <a href="">
                             <img src={linkedin} alt="" className='redes' />
@@ -50,23 +44,21 @@ const Inicio = () => {
                 </article>
             </section>
             <section className='pt-5' id='proyectos'>
-                <article className='pt-5 mt-4'>
+                <article className='seccion-proyectos'>
                     <Proyecto></Proyecto>
                 </article>
             </section>
             <section className='container' id='tecnologias'>
-                <div className='container py-5'>
-                    <div className='contacto container'>
+                <div className=' py-5'>
+                    <div className='contacto '>
                         <div className='container-form my-4'>
                             <div id='sobreMi'>
                                 <h3 className='fs-1'>Sobre mi</h3>
                                 <p className='fs-4'>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Quia, earum! Explicabo, eos eaque. Sapiente accusantium perferendis
-                                    incidunt animi. Fugiat esse ullam corrupti doloribus quaerat beatae
-                                    iure, dicta nesciunt magnam eaque voluptatem veniam molestias dignissimos
-                                    voluptate quia porro sit exercitationem praesentium vero dolorum maiores
-                                    necessitatibus magni eum dolor! Fugit, cumque enim.
+                                he trabajado en proyectos personales y grupales que me han permitido desarrollar
+                                 habilidades en la creación de sitios web responsivos, intuitivos y visualmente atractivos.
+                                  Estoy entusiasmado por aplicar lo que he aprendido
+                                 en un entorno profesional y seguir creciendo como desarrollador frontend.
                                 </p>
                             </div>
                         </div>

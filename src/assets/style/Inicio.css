@@ -6,11 +6,11 @@
 }
 
 .contenedor-titulo {
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .contenedor-titulo h1 {
-    font-size: 100px;
+    font-size: 130px;
     margin: 0;
     background: rgb(131, 58, 180);
     background: linear-gradient(90deg, rgba(131, 58, 180, 1) 32%, rgba(77, 29, 253, 1) 67%, rgba(17, 16, 16, 1) 100%);
@@ -27,7 +27,7 @@
 }
 
 .contenedor-description {
-    height: 200px;
+    height: 90px;
     width: 100%;
     text-align: center;
     display: flex;
@@ -67,20 +67,21 @@
    padding: 0;
 }
 
+
+.seccion-proyectos{
+    padding-top: 70px;
+}
+
 @media screen and (max-width: 599px) {
     .portadaInicio {
         height:600px;
         width: 100%;
         text-align: center;
-        margin-bottom: 80px;
+        margin-bottom: 75px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-    }
-
-    .contenedor-description{
-        height: 120px;
     }
 
     .contenedor-description .description {
@@ -101,13 +102,16 @@
     }
 
     .contenedor-titulo h1 {
-        font-size: 74px;
+        font-size: 84px;
     }
 
     .contenedor-titulo {
         font-size: 34px;
     }
    
+    .seccion-proyectos{
+        padding-top: 30px;
+    }
 }
 
 @media screen and (min-width: 600px) and (max-width: 991px) {
