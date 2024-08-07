@@ -20,13 +20,13 @@ const Inicio = () => {
                 <div className='contenedor-description mt-3 container'>
                     
                     <div className=' mt-3 container-redes'>
-                        <a href="">
+                        <a href="https://www.linkedin.com/in/javier-uncos-11052325b/">
                             <img src={linkedin} alt="" className='redes' />
                         </a>
-                        <a href="">
+                        <a href="https://github.com/javieruncos">
                             <img src={github} alt="" className='redes' />
                         </a>
-                        <a href="">
+                        <a href="mailto:javiersrfc@gmail.com">
                             <img src={gmail} alt="" className='redes' />
                         </a>
 
