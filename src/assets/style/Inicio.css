@@ -1,0 +1,138 @@
+.portadaInicio {
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    padding-top: 130px;
+}
+
+.contenedor-titulo {
+    font-size: 60px;
+}
+
+.contenedor-titulo h1 {
+    font-size: 130px;
+    margin: 0;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 32%, rgba(77, 29, 253, 1) 67%, rgba(17, 16, 16, 1) 100%);
+    -webkit-background-clip: text;
+    /* Usar el gradiente como fondo del texto */
+    -webkit-text-fill-color: transparent;
+    /* Hacer el texto transparente para mostrar el fondo */
+    background-clip: text;
+    /* Compatibilidad con otros navegadores */
+}
+
+.contenedor-titulo div p {
+    font-size: 20px;
+}
+
+.contenedor-description {
+    height: 90px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.contenedor-description .description{
+    font-size: 20px;
+    width: 60%;
+    font-size: 25px;
+}
+
+
+.container-redes{
+    display: flex;
+    /* justify-content: center; */
+    gap: 50px;
+}
+
+.redes {
+    height: 50px;
+    width: 50px;
+}
+
+.redes:hover {
+    position: relative;
+    bottom: 1px;
+    transition: 1s ease;
+}
+
+.email{
+   font-size: 60px;
+   padding: 0;
+}
+
+
+.seccion-proyectos{
+    padding-top: 70px;
+}
+
+@media screen and (max-width: 599px) {
+    .portadaInicio {
+        height:600px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 75px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contenedor-description .description {
+        width: 87%;
+        font-size: 13px;
+        padding-left: 0;
+    }
+    
+    .container-redes {
+        display: flex;
+        justify-content: center;
+        gap: 26px;
+    }
+
+    .redes {
+        height: 35px;
+        width: 34px;
+    }
+
+    .contenedor-titulo h1 {
+        font-size: 84px;
+    }
+
+    .contenedor-titulo {
+        font-size: 34px;
+    }
+   
+    .seccion-proyectos{
+        padding-top: 30px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 991px) {
+    .portadaInicio {
+        height: 355px;
+        width: 100%;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .contenedor-description {
+        height: 155px;
+        width: 100%;
+    }
+
+    .contenedor-titulo h1 {
+        font-size: 70px;
+    }
+
+    .contenedor-description .description {
+        width: 79%;
+        font-size: 19px;
+    }
+}
