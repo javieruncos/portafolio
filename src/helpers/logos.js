@@ -4,6 +4,7 @@ import bootstrapp from "../assets/img/bootstrap.svg";
 import css from "../assets/img/css.svg";
 import html from "../assets/img/html5.svg";
 import router from "../assets/img/reactrouter.svg";
+import github from "../assets/img/github.svg";
 
 export const arregloLogos = [
   {
@@ -19,8 +20,8 @@ export const arregloLogos = [
     src: bootstrapp,
   },
   {
-    nombre: "react router",
-    src: router,
+    nombre: "github",
+    src: github,
   },
   {
     nombre: "javascript",
@@ -30,5 +31,6 @@ export const arregloLogos = [
     nombre: "react",
     src: react,
   }
+ 
 
 ];
