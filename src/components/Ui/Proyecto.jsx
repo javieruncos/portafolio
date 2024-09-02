@@ -19,33 +19,6 @@ const Proyecto = () => {
                 <div className='row'>
                     <div className='col-12 col-md-12 col-lg-6'>
                         <div className='card-proyectos'>
-                            <a href="https://chic-sprite-d6faab.netlify.app/">
-                                <div className='contenedor-img'>
-                                    <img src={ecommerce} alt="" />
-                                </div>
-                                <div className='description-proyecto container pt-3'>
-                                    <h3 className='fs-1'>Ecommerce</h3>
-                                    <div>
-                                        <h4 className='color-Text'>Descripcion</h4>
-                                        <p>Este es un proyecto de ecommerce donde aplique lo aprendido en el curso.
-                                            donde creamos un CRUD de productos y un carrito de compras.
-                                        </p>
-                                    </div>
-                                    <span className='text-secondary'>tecnologia usadas</span>
-                                    <div className=' container-logos'>
-                                        <img src={LogosTecnologias.react} alt="" />
-                                        <img src={LogosTecnologias.javascript} alt="" />
-                                        <img src={LogosTecnologias.bootstrap} alt="" />
-                                        <img src={LogosTecnologias.reactRouter} alt="" />
-                                        <img src={LogosTecnologias.nodejs} alt="" />
-                                        <img src={LogosTecnologias.express} alt="" />
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div className='col-12 col-md-12 col-lg-6'>
-                        <div className='card-proyectos'>
                             <a href="https://inquisitive-mooncake-315ed7.netlify.app/">
                                 <div className='contenedor-img'>
                                     <img src={futbol} alt="" />
